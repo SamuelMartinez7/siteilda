@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="Samuka.css">
+
+
+    <meta charset="UTF-8">
+    <title>QR Code para Cardápio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            background-image: linear-gradient(to bottom right, #ffffff, #f3f3f3);
+            background-size: cover;
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+        }
+        #header {
+            margin-bottom: 20px;
+        }
+        #header img {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        #qr-code {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <!-- Substitua "negao" pelo caminho real da imagem da sua logo -->
+        <img src="https://scontent.fcgh22-1.fna.fbcdn.net/v/t39.30808-6/273019767_102941928977183_7384940042534752628_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=If9pX81Fg7wAX9M5Yyd&_nc_ht=scontent.fcgh22-1.fna&oh=00_AfCmcaELjLD7A_ycMqrOfmQAPCZ8AoGEvxgpCZf8rRvxTg&oe=65DA93DF" alt="Logo da Escola">
+    </div>
+    <h1>Escaneie o QR Code para ver o cardápio do dia</h1>
+    <div id="qr-code">
+        <!-- Substitua "frame.jpg" pelo nome do arquivo JPEG do código QR -->
+        <img src="frame.jpg" alt="QR Code para o cardápio" width="200" height="200">
+    </div>
+</body>
+</html>

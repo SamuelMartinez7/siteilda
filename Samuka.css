@@ -1,0 +1,44 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    padding: 20px;
+}
+
+/* Estilos para o cabeçalho */
+#header {
+    margin-bottom: 20px;
+}
+
+#header img {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Estilos para o contêiner do QR Code */
+#qr-code {
+    margin-top: 20px;
+}
+
+/* Estilos para o QR Code */
+#qr-code img {
+    width: 200px;
+    height: 200px;
+}
+
+/* Estilos para o link do QR Code */
+#qr-code a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#qr-code a:hover {
+    text-decoration: underline;
+}
